@@ -1,0 +1,74 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "navbar navbar navbar"
+    "banner banner banner"
+    "quit quit motivation"
+    "tips facts help"
+    "footer footer footer";
+    grid-gap: 0.5rem;
+}
+
+.navbar{
+    grid-area: navbar;
+    background-color: #c9e4de;
+}
+
+.navbar ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;  
+}
+
+.navbar li{
+    display:inline-block;
+    margin: 0 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(10, 37, 59);
+    font-size: 20px;
+    padding: 5px 10px;
+    transition: backround-colour 0.5s;
+}
+
+.banner{
+    grid-area: banner;
+    background-color: aqua;
+    text-align: center;
+}
+
+.quit{
+    grid-area: quit;
+    background-color: brown;
+}
+
+.motivation{
+    grid-area: motivation;
+    background-color: blueviolet;
+}
+
+.tips{
+    grid-area: tips;
+    background-color: blanchedalmond;
+}
+
+.facts{
+    grid-area: facts;
+    background-color: aquamarine;
+}
+
+.help{
+    grid-area: help;
+    background-color: blue;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: burlywood;
+}
