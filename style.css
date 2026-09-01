@@ -14,7 +14,7 @@
 
 .navbar{
     grid-area: navbar;
-    background-color: #c9e4de;
+    background-color: #d6e5bd;
 }
 
 .navbar ul{
@@ -39,36 +39,64 @@
 
 .banner{
     grid-area: banner;
-    background-color: aqua;
+    background-color: #d6e5bd;
     text-align: center;
 }
 
 .quit{
     grid-area: quit;
-    background-color: brown;
+    background-color: #d6e5bd;
+   
 }
 
 .motivation{
     grid-area: motivation;
-    background-color: blueviolet;
+    background-color: #d6e5bd;
 }
 
 .tips{
     grid-area: tips;
-    background-color: blanchedalmond;
+    background-color: #d6e5bd;
 }
 
 .facts{
     grid-area: facts;
-    background-color: aquamarine;
+    background-color: #d6e5bd;
 }
 
 .help{
     grid-area: help;
-    background-color: blue;
+    background-color: #d6e5bd;
+    padding: 0 20px;
+
 }
 
 .footer{
     grid-area: footer;
-    background-color: burlywood;
+    background-color: #d6e5bd;
+}
+
+.quit ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.quit li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.quit a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px ;
+    background-color: 0.5s;
+}
+
+.quit img{
+    width: 10%;
+    height: auto;
 }
