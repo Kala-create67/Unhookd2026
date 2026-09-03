@@ -49,6 +49,22 @@
    
 }
 
+.quit h3{
+    text-align: center;
+}
+
+.quit li{
+    display:inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.quit ul{
+    list-style-type: none;
+        margin: 0;
+    padding: 0;
+}
+
 .motivation{
     grid-area: motivation;
     background-color: #d6e5bd;
@@ -76,17 +92,9 @@
     background-color: #d6e5bd;
 }
 
-.quit ul{
-    list-style-type: none;
-    text-align: center;
-    padding: 5px;
-    margin: 5px;
-}
 
-.quit li{
-    display: inline-block;
-    margin: 0 20px;
-}
+
+
 
 .quit a{
     text-decoration: none;
